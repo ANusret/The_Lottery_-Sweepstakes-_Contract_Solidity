@@ -1,0 +1,10 @@
+Lottery adında bir kontratımız olacak.
+Bu kontratta bir ödül havuzu (prize pool) ve bu ödül havuzuna katılan kişilerin (players) listesi olacak.
+Dışarıdan bir oyuncu kontratımıza bir miktar para gönderecek ve böylece adı players listesine kaydedilecek.
+Sözleşmeye  gönderdikleri para prize pool da tutuluyor olacak.
+Players listesindeki kayıtlar belirli bir sayıya geldiğinde,
+üçüncü bir kişi (üçüncü bir taraf) sözleşmeye bir kazanan seçmesini (pick a winner) söyleyecek.
+Üçüncü kişi kazananın kim olduğunu seçmeyecek sadece sözleşmeyi tetikleyecek.
+Sözleşme players listesine bakacak, bir oyuncuyu seçecek ve prize pool da bulunan tüm parayı bu oyuncunun hesabına aktaracak.
+Kontrat sıfırlanacak ve yeni boş bir players listesi yeni oyuncuları kayıt için hazır hale gelecek.
+Ve kendini tekrar eder.
