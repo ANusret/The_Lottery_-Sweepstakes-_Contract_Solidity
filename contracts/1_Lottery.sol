@@ -30,7 +30,7 @@ contract Lottery {
     function pickTheWinner() public payable checkManager{
         uint index = randomHelper() % players.length;
         players[index].transfer(this.balance);
-        players = new address[](0);   // yeni bir dinamik players dizisi oluştur ve bunu 0. elemandan başlat edik bu şekilde oyunumuz sıfırlanmış oldu.
+        players = new address[](0); 
     }
 
 }
